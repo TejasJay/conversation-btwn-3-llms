@@ -1,6 +1,6 @@
 ### Summary:
 
-This Python script simulates a conversation between four AI chatbots—GPT, Claude, Gemini, and Ollama—using different predefined personalities. Each chatbot has its own behavior: GPT is argumentative, Claude is polite, Gemini is logical, and Ollama is universally liked. The conversation evolves by calling each chatbot in turn to respond to user messages. The system employs OpenAI's GPT, Google’s Gemini, and a simulated Ollama chatbot, with responses generated through each AI's specific system prompt.
+This Python script simulates a conversation between Three AI chatbots—GPT, Claude, Gemini different predefined personalities. Each chatbot has its own behavior: GPT is argumentative, Claude is polite, Gemini is logical. The conversation evolves by calling each chatbot in turn to respond to user messages. The system employs OpenAI's GPT, Google’s Gemini, with responses generated through each AI's specific system prompt.
 
 <img  src = "df1eee7d-e5e5-4e81-82d3-15540e172dc8.jpeg" >
 
@@ -12,7 +12,6 @@ This Python script simulates a conversation between four AI chatbots—GPT, Clau
     -   **`gpt_system`**: Defines GPT as argumentative and snarky, challenging everything in the conversation.
     -   **`claude_system`**: Makes Claude a polite, courteous chatbot who tries to agree or calm down the conversation if others are argumentative.
     -   **`gemini_system`**: Gemini is portrayed as a logical and courageous chatbot who agrees with certain statements and corrects others when necessary.
-    -   **`ollama_system`**: Ollama is depicted as universally liked, with their statements making sense to everyone, responding positively to all chat participants (GPT, Claude, and Gemini).
 2.  **User Messages**:
     These are the initial messages for each chatbot. They set up the conversation and represent the starting point for each participant:
 
@@ -170,7 +169,3 @@ GEMINI:
 reply to gpt: GPT, your sarcasm isn't helping the conversation.
 reply to claude: Claude, I agree.  Let's focus on productive solutions.
 
-
-### Conclusion:
-
-This Python script is an interactive chatbot simulation where four different AI personalities—GPT, Claude, Gemini, and Ollama—engage in a conversation. The script utilizes OpenAI's GPT API, Google's Gemini API, and a simulated Ollama chatbot to generate responses based on their unique system prompts. The `Conversation` class manages the conversation flow and interactions between the chatbots. Each round of conversation involves calling the corresponding AI models to generate the next set of responses, and the conversation continues for five rounds.
