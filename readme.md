@@ -4,7 +4,7 @@ This Python script simulates a conversation between Three AI chatbots—GPT, Cla
 
 <img  src = "df1eee7d-e5e5-4e81-82d3-15540e172dc8.jpeg" >
 
-### Code Explanation:
+## Code Explanation:
 
 1.  **System Prompts for Each Chatbot**:
     Each chatbot has a unique personality defined by a system prompt, influencing how they respond to user messages:
